@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ONGkm {
 
 	public static void main(String[] args) {
-		
+
 		final String CYAN = "\033[0;36m";
 
 		Scanner leitor = new Scanner(System.in);
