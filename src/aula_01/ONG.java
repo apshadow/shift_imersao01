@@ -12,7 +12,7 @@ public class ONG {
 
 		leitor.close();
 
-		valor1 = valor1 / 5.12f;
+		valor1 = valor1 * 5.12f;
 
 		System.out.println("Conversão para Real: " + valor1);
 
