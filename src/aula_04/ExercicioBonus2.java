@@ -20,7 +20,7 @@ public class ExercicioBonus2 {
 		System.out.println("Por favor, digite sua senha:");
 		senha = leitor.next();
 
-		if (login.equalsIgnoreCase("admin") && senha.equals("123")) {
+		if (login.equals("admin") && senha.equals("123")) {
 			System.out.println(CYAN + "Você conseguiu logar!");
 			System.out.println(RED + "Foi feita apenas uma tentativa.");
 		} else {
@@ -33,7 +33,7 @@ public class ExercicioBonus2 {
 				senha = leitor.next();
 				tentativas = i += 1;
 
-				if (login.equalsIgnoreCase("admin") && senha.equals("123")) {
+				if (login.equals("admin") && senha.equals("123")) {
 					System.out.println(CYAN + "Você conseguiu logar!");
 					System.out.println(RED + "Foram feitas " + tentativas + " tentativas.");
 					break;

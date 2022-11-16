@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExercícioBonus1 {
 
 	public static void main(String[] args) {
-		
+
 		final String CYAN = "\033[0;36m";
 		final String RED = "\033[0;31m";
 		final String RESET = "\033[0m";
@@ -20,7 +20,8 @@ public class ExercícioBonus1 {
 			fatorial = fatorial * i;
 			i++;
 		}
-		System.out.println(RED + "(" + numero + "!)" + RESET + " tem como valor final: " + CYAN + String.format("%.2f", fatorial));
+		System.out.println(
+				RED + "(" + numero + "!)" + RESET + " tem como valor final: " + CYAN + String.format("%.2f", fatorial));
 
 		leitor.close();
 
