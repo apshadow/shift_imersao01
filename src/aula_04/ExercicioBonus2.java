@@ -13,6 +13,7 @@ public class ExercicioBonus2 {
 		Scanner leitor = new Scanner(System.in);
 		int i = 1, tentativas;
 		String login, senha;
+	
 
 		System.out.println("SISTEMA DE LOGIN");
 		System.out.println("Por favor, digite seu username:");
